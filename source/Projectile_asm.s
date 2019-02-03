@@ -104,7 +104,7 @@ Projectile_vtable:
 	.long 0x02099168
 	.long 0x02098A94
 	.long Projectile_null
-	.long 0x020E1BB0
+	.long 0x02098A10
 	.long 0x0209C9D0
 	.long 0x0209C994
 	.long 0x020A0268
