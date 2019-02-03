@@ -63,5 +63,12 @@ repl_021763A0_ov_44: @Removes kicking and pickup from Buzzy Beetle when in shell
 repl_02176388_ov_44:
 BX     LR
 
-@repl_020D2F9C_ov_08: @Disables the Bowser. Jr cutscene when starting a new game/world
-@B      0x020D3024
+repl_020D2F9C_ov_08: @Disables the Bowser. Jr cutscene when starting a new game/world
+B      0x020D3024
+
+repl_020D2718_ov_09: @Disable Opening Cutscene
+B      0x020D272C
+
+repl_020D467C_ov_08: @Disable World Map Scrolling with L/R
+repl_020D4628_ov_08:
+BX     LR
